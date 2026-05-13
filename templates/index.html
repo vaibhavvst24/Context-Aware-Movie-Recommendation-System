@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>AI Recommendation Engine</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>🎬 Context-Aware Movie Recommender</h1>
+
+        <form method="POST">
+
+            <label>User ID:</label>
+            <input type="number"
+                   name="user_id"
+                   required>
+
+            <label>Time Context:</label>
+
+            <select name="context">
+
+                <option value="0">Morning</option>
+                <option value="1">Evening</option>
+                <option value="2">Night</option>
+
+            </select>
+
+            <button type="submit">
+                Recommend Movies
+            </button>
+
+        </form>
+
+        {% if recommendations %}
+
+        <div class="results">
+
+            <h2>Top Recommendations</h2>
+
+            <ul>
+
+                {% for movie, score in recommendations %}
+
+                <li>
+                    {{ movie }}
+                    ⭐ {{ score }}
+                </li>
+
+                {% endfor %}
+
+            </ul>
+
+        </div>
+
+        {% endif %}
+
+    </div>
+
+</body>
+</html>
