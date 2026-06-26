@@ -4,7 +4,7 @@ from app.services import get_recommendations
 from fastapi.responses import RedirectResponse
 
 app = FastAPI(
-    title="Movie Recommendation API",
+    title="Movie Recommendation System API",
     version="1.0"
 )
 
