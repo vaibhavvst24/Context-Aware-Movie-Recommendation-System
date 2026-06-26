@@ -4,6 +4,7 @@ An AI-powered movie recommendation system built using PyTorch, Deep Learning, an
 
 # Live App
 [![Streamlit App](https://img.shields.io/badge/Streamlit-Live_App-red)](https://movie-recommendation-system-dr29pjv6nyuucxuf2zhsta.streamlit.app/)
+[![Fast API](https://share.google/YD5oJEThwytW0slct)](https://movie-recommendation-system-4bdd.onrender.com/docs)
 
 # 🚀 Project Overview
 
