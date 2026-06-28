@@ -60,16 +60,16 @@ to improve recommendation relevance and personalization.
 
 | Technology   | Purpose                  |
 | ------------ | ------------------------ |
-| Python       | Core Programming         |
-| PyTorch      | Deep Learning Model      |
-| Pandas       | Data Processing          |
-| NumPy        | Numerical Operations     |
-| Scikit-learn | Encoding & Preprocessing |
-| Streamlit    | Web Application UI       |
-| Docker       | Containerized Deployment |
-| Uvicorn       | ASGI Server |
-| Pydantic      | Request Validation |
-| Swagger UI       | API Documentation |
+| ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)       | Core Programming         |
+| ![Pytorch](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=pytorch&logoColor=orange)      | Deep Learning Model      |
+| ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)       | Data Processing          |
+| ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)        | Numerical Operations     |
+| ![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white) | Encoding & Preprocessing |
+| ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=Streamlit&logoColor=white)    | Web Application UI       |
+| ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)       | Containerized Deployment |
+| ![Uvicorn](https://img.shields.io/badge/Uvicorn-499848?style=for-the-badge)       | ASGI Server |
+| ![Pydantic](https://img.shields.io/badge/Pydantic-E92063?style=for-the-badge&logo=pydantic&logoColor=white)      | Request Validation |
+| ![Gemini](https://img.shields.io/badge/Google_Gemini-4285F4?style=for-the-badge&logo=google&logoColor=white)       | API Documentation |
 
 ---
 
@@ -104,17 +104,29 @@ Night
 # 🏗️ Project Architecture
 
 User Input
+
    ↓
+
 Context Feature Extraction
+
    ↓
+
 Data Preprocessing
+
    ↓
+
 PyTorch Embedding Layers
+
    ↓
+
 Neural Recommendation Network
+
    ↓
+
 Recommendation Prediction
+
    ↓
+
 Streamlit Dashboard
 
 ---
@@ -165,6 +177,7 @@ POST /recommend
 ## Response Example
 
 {
+   
     "recommendations": [
         {
             "movie": "The Dark Knight",
